@@ -20,7 +20,7 @@ app.get("/health", (req, res) => {
 app.get("/hello", (req, res) => {
     console.log("Hello endpoint hit");
     console.log(`IP : ${req.headers["x-forwarded-for"] || req.socket.remoteAddress}`);
-    res.json({ message: "Hello from Express App!" });
+    res.json({ message: "Hello from Express App!!" });
 });
 
 app.listen(PORT, () => {
