@@ -9,7 +9,7 @@ app.use(morgan("dev"));
 
 app.get("/", (req, res) => {
     console.log("Express App is running...");
-    res.json({ status: "Express App is running!" });
+    res.json({ status: "Express App is running!!" });
 });
 
 app.get("/health", (req, res) => {
